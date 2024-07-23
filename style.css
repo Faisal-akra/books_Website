@@ -1,23 +1,68 @@
-
-#f_logo{
-    display: flex;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 50px;
+*{
+    padding: 0;
+    margin: 0;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-.heading{
+figure{
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    height: 50px;
-    background-color: rgb(136, 132, 132);
-    align-items: center;
-    color: black;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+/* links */
+
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    position: static;
+    top: 0;
+    margin-top: 20px;
     
 }
 
-a:hover{
-    background-color: white;
+nav a{
+      color: rgb(25, 25, 80);
+      text-decoration: none;
 }
 
+
+/* heading picture */
+
+.sec_logo{
+    display: flex;
+    justify-content: space-evenly;
+    margin-right: 50px;
+    margin-top: 50px;
+}
+
+.sec_logo img{
+ margin-left: 20px;
+ width: 500px;
+ margin-top: 20px;
+}
+
+.sec_logo h2{
+ font-size: 48px;
+ font-weight: 900;
+}
+
+.sec_logo input{
+ width: 250px;
+ height: 50px;
+ border-radius: 10px;
+ margin-top: 18px;
+}
+
+.sec_logo div{
+    padding: 100px;
+}
+
+/* section */
+
+section{
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 16px;
+}
