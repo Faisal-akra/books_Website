@@ -1,0 +1,23 @@
+
+#f_logo{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 50px;
+}
+
+.heading{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 50px;
+    background-color: rgb(136, 132, 132);
+    align-items: center;
+    color: black;
+    
+}
+
+a:hover{
+    background-color: white;
+}
+
