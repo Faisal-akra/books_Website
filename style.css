@@ -16,10 +16,11 @@ figure{
 nav{
     display: flex;
     justify-content: space-evenly;
-    position: static;
+    position: sticky;
     top: 0;
     margin-top: 20px;
-    
+    background-color: rgb(118, 116, 116);
+    padding: 20px;
 }
 
 nav a{
@@ -64,5 +65,99 @@ nav a{
 section{
     text-align: center;
     padding-top: 10px;
-    padding-bottom: 16px;
+    padding-bottom: 75px;
+    font-size: 20px;
+}
+
+/*  sellers */
+
+
+.first{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.book{
+    border: 3px solid black;
+    position: relative;
+    background-color: rgb(209, 199, 199);
+    border-radius: 8px;
+
+
+}
+.book img{
+    width: 280px;
+    height: 250px;
+}
+
+.book h6{
+    
+    font-weight: bolder;
+    font-size: x-large;
+    position: relative;
+    text-align: center;
+    color: aliceblue;
+    background-color: rgb(74, 67, 67);
+}
+
+#Seller{
+    margin-left: 30px;
+}
+
+.def{
+    background-color: rgb(32, 32, 36);
+}
+
+.f-btn{
+  
+margin-left: auto;
+margin-right: auto;align-items: center;
+display: flex;
+justify-content: center;
+ background-color: gray;
+ padding-top: 1vh;
+}
+
+.f-btn button:hover{
+    background-color: white;
+    color: black;
+}
+
+.f-btn button:active{
+    background-color: black;
+}
+
+.f-btn button{
+    width: 15vh;
+    height: 5vh;
+   background-color:rgb(105, 101, 101) ;
+ color: white;
+ font-weight: bolder;
+
+  
+   
+}
+/* BOOKS */
+
+
+.sec-books{
+ border: 20px solid rgb(205, 209, 210);   
+}
+
+/* FOOTER */
+
+.contact{
+    display: flex;
+    height: 150px;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    margin-top: 4vh;
+    background-color: rgb(205, 209, 210);
+
+}
+.contact-img{
+    padding-top: 5vh;
 }
